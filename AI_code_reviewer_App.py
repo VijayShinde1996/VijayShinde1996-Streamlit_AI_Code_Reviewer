@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API key for Google Generative AI
-genai.configure(api_key="AIzaSyAgxzRq1399TV8eUIBYT4lLvFnNWBXC9xE")
+genai.configure(api_key="XX")
 
 # Initialize the LLM model and create a chatbot session
 llm = genai.GenerativeModel("models/gemini-1.5-flash")
